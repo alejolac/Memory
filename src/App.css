@@ -13,6 +13,10 @@
   height: 100vh !important;
 }
 
+.icon-menu {
+  margin-left: 8px !important;
+}
+
 .title {
   text-align: center;
   margin-bottom: 50px;
@@ -46,6 +50,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 50px;
 
 }
 
@@ -115,6 +120,7 @@
   height: 100%;
   backface-visibility: hidden;
 }
+
 
 .memory-card-front {
   background-color: #e8e8e8;
@@ -192,14 +198,17 @@
     margin-bottom: 16px;
     gap: 20px;
   }
+
   .menu {
     margin-bottom: 50px;
   }
+
   .card i {
     font-size: 50px;
   }
-  .card-30 i{
-    font-size: 30px!important;
+
+  .card-30 i {
+    font-size: 30px !important;
   }
 }
 
@@ -235,4 +244,45 @@ footer i {
   justify-content: center;
   align-items: center;
   gap: 20px;
+}
+
+
+/* TABLA */
+
+@media (max-width: 768px) { 
+  .aside {
+    display: none!important;
+  }
+}
+
+.aside {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 500px!important;
+  border-radius: 10px;
+  font-size: 40px;
+  margin-top: -360px;
+}
+
+.puntos {
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 26px;
+  text-align: center;
+}
+
+.flex-menu {
+  display: flex;
+  justify-content: center;
+  gap: 200px;  
+}
+
+.turn {
+  background-color: #535bf2;
+  border-radius: 40px;
 }
